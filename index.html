@@ -1,103 +1,83 @@
-<!DOCTYPE html> <!-- Comment, DOCTYPE tells the browser which version of HTML to use /!-->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!--"ltr" means left to right... tells the browser how to render. The Html tag tells the browser everything in between is Html code /!-->
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <title>Ethan Hammar</title>
+  </head>
+  <body>
+  <div class="headSpacer">
 
-<head>
-  <link rel="stylesheet" href="styles.css">
-  <meta charset="utf-8">
-  <!--utd-8 is the character encoding which inc/!-->
-  <title>Ethan's Biography</title>
-</head>
+  </div>
 
-<body>
-  <table cellspacing=10>
+  <div class="topContainer">
+    <img class="topcloud" src="/Users/ethanhammar/Desktop/Web Development/CSS - My Site/Images/cloud.png" alt="cloud">
+    <h1>I'm Ethan.</h1>
+    <h2>A software developer</h2>
+    <img class="mointain" src="/Users/ethanhammar/Desktop/Web Development/CSS - My Site/Images/mountain.png" alt="">
+    <img class="bottomcloud" src="/Users/ethanhammar/Desktop/Web Development/CSS - My Site/Images/cloud.png" alt="cloud">
+  </div>
 
-    <td><img src="111.jpg" width="200" height="200" alt="Picture of Ethan"></td>
-    <td></td>
-    <td>
-      <h1>Ethan Hammar</h1>
-      <p><em>Software development student at <strong><a target="_blank" href="https://www.wgu.edu/">Western Governor's University</a><br></strong></p>
-    </td>
+  <div class="profContainer">
+    <h2>HELLO</h2>
+    <div class="profbody">
+      <img class="profilePic standimg imgBck" src="/Users/ethanhammar/Desktop/Web Development/CSS - My Site/Images/111-removebg-preview.png">
+      <br>
+      <p style="text-align:center">Let's get to know me better. </p>
+    </div>
 
-  </table>
-  <br>
-  <hr>
-  <h2>Ventures:</h2>
-  <ul>
-    <li>3D Printing Experience</li>
-    <ul>
-      <li><a target="_blank" href="https://en.wikipedia.org/wiki/Stereolithography">SLA</a></li>
-      <li><a target="_blank" href="https://en.wikipedia.org/wiki/Fused_filament_fabrication#Fused_deposition_modeling">FDM</a></li>
-    </ul>
-    <li>eCommerce</li>
-    <li>Coding</li><br>
-  </ul>
-  <hr><br>
-  <h3>Work Experience:</h3>
-  <table border=".5">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
+  </div>
+      <br><hr>
 
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-    <tr>
-      <td>2019</td>
-      <td>NASA S.U.I.T.S. competition</td>
-    </tr>
-    <tr>
-      <td>2019-2020</td>
-      <td>eCommerce</td>
-    </tr>
-  </table>
-  <br>
-  <hr><br>
+  <div class="midContainer">
+    <div class="skills">
 
 
-</select>
-  <h3>Skills:</h3>
-  <table>
-    <tc>
-      <td><table>
-        <tr>
-          <td>Programming</td>
-          <td>🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Gaming</td>
-          <td>🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Piano</td>
-          <td>🌟🌟</td>
-        </tr>
-      </table></td>
-    </tc>
-    <tc>
-      <td><table>
-        <tr>
-          <td>Cooking</td>
-          <td>🌟🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Painting</td>
-          <td>🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Lifting</td>
-          <td>🌟🌟</td>
-        </tr>
-      </table></td>
-    </tc>
-  </table>
-  <hr>
-  <p><a href="hobbies.html">My hobbies</a> <br> <a href="contact.html">My contact info</a> </p>
-</body>
+      </div>
 
+      <h2>My Skills:</h2>
+      <div class="skill-row">
+        <img class="tdprint standimg imgBck" src="/Users/ethanhammar/Desktop/Web Development/CSS - My Site/Images/3d-print.png" alt="">
+        <h3>3D Printing</h3>
+        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <iframe class="standimg code-gif"src="https://giphy.com/embed/QssGEmpkyEOhBCb7e1" frameBorder="0" allowFullScreen></iframe>
+
+        <h3>Coding</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+      <div class="skill-row">
+        <img class="tdprint standimg imgBck" src="/Users/ethanhammar/Desktop/Web Development/CSS - My Site/Images/3d-print.png" alt="">
+        <h3>Business</h3>
+        <p>I have created multiple eCommerce businesses selling .</p>
+      </div>
+
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Let's make something great.</h3>
+      <p>If you have a vision, let's talk about it and see what's possible.</p>
+      <a class="btn" href="mailto:ethanhammar3@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="footContainer">
+    <div class="links">
+      <a class="links" href="https://www.linkedin.com/in/ethan-hammar-932925168/">LinkedIn</a>
+      <p style="display: inline">  </p>
+      <!--<a class="footer-link" href="https://twitter.com/">Twitter</a> !-->
+      <a class="links" href="https://thecursedshop.com/">Website</a>
+    </div>
+
+    <p>© 2021 Ethan Hammar.</p>
+  </div>
+
+  </body>
 </html>
